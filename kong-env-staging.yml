@@ -1,5 +1,0 @@
-env: staging
-namespace: default
-postgresDBEndpoint: apigatewaystagingv1.xxx.us-east-1.rds.amazonaws.com
-kongProxyDNS: endpoint
-#kubetpl render kong-template.yml -i kong-env-staging.yml --syntax go-template
